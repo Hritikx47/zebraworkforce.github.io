@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.navlogo
+{
+    height: 60px;   
+}
+
+.navlogotext
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #d2e5f5;
+}
+
+#backgroundvideo
+{
+    aspect-ratio: 1920/867;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+
+}
+
+.home_content
+{
+    position: relative;
+    bottom: 400px;
+    background-color: transparent;
+}
+
+.banner_text
+{
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.cardsize
+{
+    width: 250px;
+}
+.industryimage
+{
+    width: 450px;
+    height: 300px;
+}
+
+
+.footerlinks 
+{
+    text-decoration: none;
+}
+
+
+
+.rights
+{
+    font-family: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #backgroundvideo
+    {
+    aspect-ratio: 1920/867;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+
+    }
+
+    .banner_text
+    {
+        position: absolute;
+    top: 320px;
+    font-size: 15px;
+    }
+
+    .navlogotext
+    {
+        font-size: 15px;
+    }
+
+    .headings
+    {
+        font-size: 13px;
+    }
+
+    .para
+    {
+        font-size: 10px;
+    }
+
+    .industryimage
+    {
+        height: 200px;
+        width: 235px;
+    }
+
+    .cardsize
+    {
+        width: 230px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .banner_text{
+        position: absolute;
+        top: 250px;
+    }
+  
+}
